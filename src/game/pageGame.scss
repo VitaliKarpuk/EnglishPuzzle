@@ -1,0 +1,27 @@
+.page__game{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(199, 151, 151, 0.7);
+  display: flex;
+  justify-content: center;
+}
+header{
+  width: 90%;
+  height: 100px;
+  background-color: rgba(184, 117, 117, 0.664);
+  display: flex;
+  align-items: center;
+  select{
+    background-color: rgba(148, 124, 124, 0.801);
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #ffffff;
+    border: 1px solid;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  h3{
+    margin-right: 5px;
+  }
+}
